@@ -1,0 +1,16 @@
+title: Cloud Computing Applications - Year 2020
+description: Cloud Computing Applications - Year 2020
+template:
+  repo: cloud-computing-applications-year-2020-template
+  name: cloud-computing-applications-year-2020
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
